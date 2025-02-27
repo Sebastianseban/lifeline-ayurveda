@@ -210,11 +210,11 @@ function Navbar() {
       <div className={`fixed top-0 right-0 w-[75%] sm:w-[60%] bg-[#ffffff] h-full p-6 shadow-lg transform transition-transform duration-300 ease-in-out ${
         drawerOpen ? 'translate-x-0 overflow-y-scroll' : 'translate-x-full'
       } z-40`}>
-        <ul className="mt-20 space-y-5 text-[18px] font-normal text-[#333333]">
+        <ul className="mt-20 pb-6 text-[18px] font-normal text-[#333333]">
           <li className="cursor-pointer hover:text-gray-300">Services</li>
 
           {/* Treatments with Submenu for Mobile */}
-          <li className="cursor-pointer hover:text-gray-300 flex justify-between items-center" onClick={toggleSubmenu}>
+          <li className="cursor-pointer hover:text-gray-300 flex justify-between items-center pb-6" onClick={toggleSubmenu}>
             Treatments
             <span className={`transform transition-transform duration-300 ${submenuOpen ? 'rotate-180' : ''}`}>
               ▼
@@ -236,13 +236,13 @@ function Navbar() {
             <li className="cursor-pointer hover:text-gray-300 p-2" onClick={toggleDrawer}>Ayurveda Cure</li>
                </Link>
                <Link href={"/ayurvedaWellness"}>
-            <li className="cursor-pointer hover:text-gray-300 p-2" onClick={toggleDrawer}>Ayurveda Wellness</li>
+            <li className="cursor-pointer hover:text-gray-300 p-2 pb-4" onClick={toggleDrawer}>Ayurveda Wellness</li>
                </Link>
           </ul>
 
           {/* <li className="cursor-pointer hover:text-gray-300">Our Team</li> */}
-          <li className="cursor-pointer hover:text-gray-300">Testimonials</li>
-          <li className="cursor-pointer hover:text-gray-300">About us</li>
+          <li className="cursor-pointer hover:text-gray-300 pb-6">Testimonials</li>
+          <li className="cursor-pointer hover:text-gray-300 pb-6">About us</li>
         </ul>
 
         <Link href={"/contact"}>
