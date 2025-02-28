@@ -2,7 +2,7 @@ import React from 'react'
 
 function Section4() {
   return (
-    <div className= 'px-[16px] sm:px-[50px] lg:px-[80px] xl:px-[100px] 2xl:px-[196px] py-[24px] sm:py-[64px]'>
+    <div className= 'px-[16px] sm:px-[50px] lg:px-[80px] xl:px-[100px] 2xl:px-[196px] py-[24px] sm:py-[32px]'>
     <div className='flex flex-col-reverse md:flex-row border-[1px] border-[#999999] rounded-[30px] md:ps-4 lg:ps-9 xl:ps-[66px] overflow-hidden'> 
       <div className='w-full md:w-1/2 pt-[22px] md:pt-[38px] xl:pt-[68px]  px-[24px] md:px-0'>
           <h1 className='text-[28px] md:text-[32px] xl:text-[42px] font-semibold leading-[120%] text-[#333333]'>Postnatal<br/> (Pregnancy) care </h1>
