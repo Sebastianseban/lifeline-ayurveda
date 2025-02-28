@@ -30,11 +30,17 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased open-sans`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased  open-sans relative`}
       >
         <Navbar />
+        {/* Fixed WhatsApp Icon */}
+        <div className="fixed bottom-3 sm:bottom-6 right-3 sm:right-6 z-50">
+          <a href="https://wa.me/8156806004" target="_blank" rel="noopener noreferrer">
+            <img src="/assets/whatsapp-icon.png" alt="whatsapp-icon" className="size-10 sm:size-16 md:size-24" />
+          </a>
+        </div>
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
