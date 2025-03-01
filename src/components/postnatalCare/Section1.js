@@ -3,9 +3,9 @@ import React from 'react'
 
 function Section1() {
   return (
-    <div className='bg-image-ayurvedaTherapy pb-[64px] sm:pb-[160px] '>
+    <div className='bg-image-postnatalCare pb-[64px] sm:pb-[160px] '>
     <h1 className='text-[28px] md:text-[40px] xl:text-[56px] text-white font-semibold text-center pt-[174px] md:pt-[250px] 2xl:pt-[336px]'>
-    Ayurveda Cure
+    Postnatal (Pregnancy Care)
     </h1>
     <p className='text-[20px] md:text-[28px] xl:text-[40px] text-white text-center pb-[25px] sm:pb-[61px]'>
         Embrace Ayurveda,<br className='sm:hidden inline'/>
